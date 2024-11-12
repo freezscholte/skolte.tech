@@ -1,0 +1,28 @@
+{
+    
+    "defaultSettings": {
+      "tenantId": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
+      "displayName": "EasySAM"
+    },
+    "applicationGrants": [
+      {
+        "enterpriseApplicationId": "00000003-0000-0000-c000-000000000000",
+        "scope": "Directory.ReadWrite.All,Directory.AccessAsUser.All"
+      },
+      {
+        "enterpriseApplicationId": "fa3d9a0c-3fb0-42cc-9193-47c7ecd2edbd",
+        "scope": "user_impersonation"
+      },
+      {
+        "enterpriseApplicationId": "797f4846-ba00-4fd7-ba43-dac1f8f63013",
+        "scope": "user_impersonation"
+      }
+    ],
+    "appRoles": [
+      {
+        "enterpriseApplicationId": "00000003-0000-0000-c000-000000000000",
+        "role": "Application.ReadWrite.All,Directory.ReadWrite.All"
+      }
+    ]
+  }
+  
